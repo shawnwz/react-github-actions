@@ -14,6 +14,7 @@ function App() {
 >>>>>>> feature test1
         </p>
         <p>feature test1</p>
+        <p>test2</p>
         <a
           className="App-link"
           href="https://reactjs.org"
