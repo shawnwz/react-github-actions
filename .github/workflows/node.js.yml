@@ -9,20 +9,27 @@ name: Node.js CI
 #  pull_request:
 #    branches: [ master ]
     
+#on:
+#  push:
+#    branches:
+#      - 'bugfix/**'
+#      - 'feature/**'
+#      - develop
+#      - master
+#  pull_request:
+#    branches:
+#      - 'bugfix/**'
+#      - 'feature/**'
+#      - develop
+#      - master
 on:
   push:
     branches:
-      - 'bugfix/**'
-      - 'feature/**'
-      - develop
-      - master
+      - '*'
   pull_request:
     branches:
-      - 'bugfix/**'
-      - 'feature/**'
-      - develop
-      - master
-
+      - '*'
+      
 jobs:
   build:
 
